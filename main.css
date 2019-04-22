@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 25px;
+    box-shadow:  5px 5px 5px lightslategrey;
+    max-width: 700px;
+    background: rgb(255,36,114);
+background: linear-gradient(45deg, rgba(255,36,114,1) 0%, rgba(251,237,82,1) 100%);
+}
+
+#title {
+    width: 35%;
+}
+
+#image {
+    width: 29%;
+    height: 0%;
+    border-radius: 10px;
+}
